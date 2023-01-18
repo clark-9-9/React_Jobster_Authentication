@@ -10,7 +10,7 @@ const cors = require('cors');
 app.use(
     cors({
         origin:[
-            "http://localhost:3000", 
+            // "http://localhost:3000", 
             "https://mern-jobster-authentication.onrender.com"
         ]
     })
@@ -86,4 +86,6 @@ connect()
 
 
 // https://mern-jobster-authentication-api.onrender.com
+// https://mern-jobster-authentication-front.onrender.com/
+
 // mern-jobster-authentication
