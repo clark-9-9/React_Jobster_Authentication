@@ -10,11 +10,12 @@ const cors = require('cors');
 app.use(
     cors({
         origin:[
-            // "http://localhost:3000", 
-            "https://mern-jobster-authentication.onrender.com"
+            "https://mern-jobster-authentication-front.onrender.com"
         ]
     })
 );
+
+// "http://localhost:3000", 
 
 
 app.get("/", (req, res) => {
