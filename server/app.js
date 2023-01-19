@@ -22,6 +22,10 @@ app.use(
 //     res.sendFile(path.join(__dirname , "./public/data.html"))
 // })
 
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname , "../client/build"))
+})
+
 
 
 //* Errors Handler
@@ -91,3 +95,5 @@ connect()
 
 // mern-jobster-authentication
 // proxy": "http://localhost:8080",
+
+//- Deploying MERN Stack App to Heroku - MERN Stack Tutorial with Redux #15
