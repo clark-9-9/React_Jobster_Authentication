@@ -7,13 +7,13 @@ const cors = require('cors');
 
 // app.use(express.static(__dirname + "/public"))
 
-app.use(
-    cors({
-        origin:["https://mern-jobster-authentication-front.onrender.com"],
-        methods: ['GET', 'POST', 'PUT', 'DELETE'],
-        allowedHeaders: ['Content-Type', 'Authorization']
-    }) 
-);
+// app.use(
+//     cors({
+//         origin:["https://mern-jobster-authentication-front.onrender.com"],
+//         methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//         allowedHeaders: ['Content-Type', 'Authorization']
+//     }) 
+// );
 
 // "http://localhost:3000", 
 
@@ -95,3 +95,4 @@ connect()
 //- Deploying MERN Stack App to Heroku - MERN Stack Tutorial with Redux #15
 
 // "proxy": "https://mern-jobster-authentication-backend.onrender.com",
+ 
