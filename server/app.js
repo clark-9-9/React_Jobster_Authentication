@@ -12,7 +12,7 @@ app.use(
         origin:["https://mern-jobster-authentication-front.onrender.com"],
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         allowedHeaders: ['Content-Type', 'Authorization']
-    })
+    }) 
 );
 
 // "http://localhost:3000", 
@@ -93,3 +93,5 @@ connect()
 // proxy": "http://localhost:8080",
 
 //- Deploying MERN Stack App to Heroku - MERN Stack Tutorial with Redux #15
+
+// "proxy": "https://mern-jobster-authentication-backend.onrender.com",

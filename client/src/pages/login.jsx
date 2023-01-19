@@ -34,11 +34,12 @@ export function Login() {
         }
 
 
-
+        // https://mern-jobster-authentication-backend.onrender.com/api/v1/auth/login
         try {
             const sendUserLogin = await fetch("/api/v1/auth/login", option)
             const userData = await sendUserLogin.json() 
             // console.log(userData);
+            console.log(sendUserLogin);
             
             setEmail('')
             setPassword('')
