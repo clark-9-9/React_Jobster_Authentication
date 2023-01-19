@@ -90,3 +90,4 @@ connect()
 // https://mern-jobster-authentication-front.onrender.com/
 
 // mern-jobster-authentication
+// proxy": "http://localhost:8080",
