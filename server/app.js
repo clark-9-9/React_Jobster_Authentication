@@ -9,9 +9,9 @@ const cors = require('cors');
 
 app.use(
     cors({
-        origin:[
-            "https://mern-jobster-authentication-front.onrender.com"
-        ]
+        origin:["https://mern-jobster-authentication-front.onrender.com"],
+        methods: ['GET', 'POST', 'PUT', 'DELETE'],
+        allowedHeaders: ['Content-Type', 'Authorization']
     })
 );
 
@@ -22,9 +22,6 @@ app.use(
 //     res.sendFile(path.join(__dirname , "./public/data.html"))
 // })
 
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname , "../client/src/index.js"))
-})
 
 
 //* Errors Handler
