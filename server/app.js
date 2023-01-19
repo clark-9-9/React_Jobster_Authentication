@@ -18,9 +18,9 @@ app.use(
 // "http://localhost:3000", 
 
 
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname , "./public/data.html"))
-})
+// app.get("/", (req, res) => {
+//     res.sendFile(path.join(__dirname , "./public/data.html"))
+// })
 
 
 
