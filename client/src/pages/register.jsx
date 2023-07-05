@@ -44,7 +44,7 @@ export function Register() {
 
 
         try {
-            const sendUserRegister = await fetch("/api/v1/auth/register", option)
+            const sendUserRegister = await fetch("https://mern-jobster-authentication-backend.onrender.com/api/v1/auth/register", option)
             const userRegister = await sendUserRegister.json()
             console.log(sendUserRegister);
 
