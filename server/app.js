@@ -17,7 +17,7 @@ const cors = require('cors');
 
 app.use(
     cors({
-        origin:["https://mern-jobster-authentication-frontend.onrender.com"],
+        origin:["http://localhost:3000", "https://mern-jobster-authentication-frontend.onrender.com"],
         methods: ['GET', 'POST', 'PUT', 'DELETE', "PATCH"], 
         allowedHeaders: ['Content-Type', 'Authorization']
     }) 
