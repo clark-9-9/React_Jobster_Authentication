@@ -11,7 +11,7 @@ const Handle_Delete_Job = async (e) => {
     // console.log(id);
 
     try {
-        const sendDeleteJob = await fetch(`/api/v1/jobs/${id}`, 
+        const sendDeleteJob = await fetch(`https://mern-jobster-authentication-backend.onrender.com/api/v1/jobs/${id}`, 
             { 
                 method:"delete",
                 headers:{

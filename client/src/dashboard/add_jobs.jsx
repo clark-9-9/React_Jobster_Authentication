@@ -47,7 +47,7 @@ export function AddJobs() {
 
 
         try {
-            const send_job = await fetch("/api/v1/jobs", option)
+            const send_job = await fetch("https://mern-jobster-authentication-backend.onrender.com/api/v1/jobs", option)
             const job = await send_job.json()
 
             console.log(job);

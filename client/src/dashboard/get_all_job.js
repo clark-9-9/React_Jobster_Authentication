@@ -9,7 +9,7 @@ const GetJobs = async (setAllJobs) => {
         }
     }
     
-    const GetAllJob = await fetch("/api/v1/jobs", option)
+    const GetAllJob = await fetch("https://mern-jobster-authentication-backend.onrender.com/api/v1/jobs", option)
     const jobs = await GetAllJob.json()    
     setAllJobs(jobs)
 

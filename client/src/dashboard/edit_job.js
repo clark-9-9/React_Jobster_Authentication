@@ -26,7 +26,7 @@ async function UpdateJob(
         body: JSON.stringify(body_request)
     }
     
-    const send_update_job = await fetch(`/api/v1/jobs/${jobId}`, option)
+    const send_update_job = await fetch(`https://mern-jobster-authentication-backend.onrender.com/api/v1/jobs/${jobId}`, option)
     const updateJob = await send_update_job.json()
 
 
